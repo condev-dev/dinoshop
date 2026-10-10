@@ -1,0 +1,22 @@
+{
+  "name": "دینو شاپ — فروشگاه اینترنتی",
+  "short_name": "دینو شاپ",
+  "lang": "fa-IR",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#FF4F3C",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/Images/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/Images/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

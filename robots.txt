@@ -1,0 +1,5 @@
+# robots.txt — https://shop.condev.ir/
+User-agent: *
+Allow: /
+
+Sitemap: https://shop.condev.ir/sitemap.xml
