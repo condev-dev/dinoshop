@@ -1,0 +1,25 @@
+@import "./base";
+@import "./Component";
+@import "./_Media.Scss";
+
+main {
+    .Social-Media {
+        .Con-Social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+
+            i {
+                font-size: 19px;
+                transition: all .5s;
+            }
+
+            &:hover i {
+                transform: rotateZ(360deg);
+            }
+        }
+    }
+}

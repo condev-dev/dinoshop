@@ -1,0 +1,72 @@
+@import "./base";
+@import "./Component";
+@import "./_Media.Scss";
+
+
+main {
+    .form-parent {
+        height: 500px;
+        width: 350px;
+        position: relative;
+        transition: all .5s;
+
+        button {
+            font-size: 24px;
+        }
+
+        .pass_show {
+            position: relative
+        }
+
+        .pass_show .ptxt {
+
+            position: absolute;
+
+
+            left: 10px;
+
+            z-index: 1;
+
+
+            cursor: pointer;
+
+            transition: .3s ease all;
+
+        }
+
+        .Form-SinUp {
+            background-color: #e4e4e4 !important;
+            border-radius: 50px 50px 0 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -300px;
+            z-index: 4;
+            transition: all .5s;
+
+
+            button {
+                background-color: transparent !important;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 50%;
+                top: -20px;
+                transform: translateX(-50%);
+                background-color: #e4e4e4;
+                width: 200%;
+                height: 250px;
+                border-radius: 50%;
+                z-index: -1;
+            }
+        }
+
+        .Form-SinIn {
+            top: -10px;
+            transition: all .5s;
+        }
+
+    }
+}

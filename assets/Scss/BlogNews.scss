@@ -1,0 +1,24 @@
+@import "./base";
+@import "./Component";
+@import "./_Media.Scss";
+
+main {
+    .Image-Blog {
+        height: 470px;
+    }
+
+    .Con-InformationBlog {
+        width: 50%;
+    }
+
+    .media {
+        p {
+            margin-right: -20px;
+
+            &::before,
+            &::after {
+                content: none;
+            }
+        }
+    }
+}

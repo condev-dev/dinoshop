@@ -1,0 +1,327 @@
+@media (max-width: 1200px) {
+    .Con-One-Slide {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+    .Con-Media {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .Con-LastNewsBox {
+        grid-template-columns: 29vw 29vw !important;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .Con-LastNewsBox {
+        grid-template-columns: 46vw 46vw !important;
+    }
+
+    .Last-Post {
+        height: 35vw !important;
+
+        h6 {
+            font-size: 3.5vw !important;
+        }
+
+        font-size: 3.2vw !important;
+    }
+
+    .Image-Blog {
+        height: 63vw !important;
+    }
+}
+
+@media (max-width: 968px) {
+    .Con-One-Slide {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .Con-One-Slide-Three {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .Category-Filter {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Product {
+        height: auto !important;
+
+        .Inner-Product-Small {
+            height: 194px !important;
+            margin-top: 20px !important;
+        }
+    }
+
+    .Con-Futare {
+        grid-template-columns: 1fr 1fr 1fr !important;
+
+    }
+
+    .Form-AddCommnet {
+        width: 100% !important;
+        font-size: 13px !important;
+
+    }
+
+    .Comments {
+        width: 100% !important;
+        padding: 0 !important;
+        font-size: 13px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .yung-category {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        gap: 50px;
+    }
+
+    .yung-category-item {
+        width: 17vw !important;
+    }
+
+    .TitleAndID {
+        h4 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .more-information {
+        table {
+
+            tr {
+
+                td {
+                    font-size: 14px !important;
+
+                    &:nth-child(1) {
+                        width: 50% !important;
+                    }
+
+                    &:nth-child(2) {
+                        width: 50% !important;
+                        font-size: 12px;
+                        padding-right: 20px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .Form-AddCommnet {
+        padding: 0 !important;
+        margin-top: 40px !important;
+
+        input[type=text],
+        input[type=email] {
+            width: calc(50% - 5px) !important;
+            margin: 10px 0 !important;
+        }
+
+        input[type=submit] {
+            width: calc(100% - 5px) !important;
+            margin: 10px 0 !important;
+        }
+
+        .Con-CheckBox {
+
+            input[type=checkbox] {
+                width: 25px !important;
+                height: 25px !important;
+            }
+        }
+
+    }
+
+    .Con-Media {
+        grid-template-columns: 1fr !important;
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .Con-One-Slide {
+        gap: 10px !important;
+    }
+
+    .Con-One-Slide-Three {
+        gap: 10px !important;
+    }
+
+    .Box-Courses {
+        width: 45vw !important;
+        font-size: 3vw !important;
+        padding: 10px !important;
+        padding-bottom: 0 !important;
+
+        p {
+            font-size: 3vw !important;
+        }
+    }
+
+    .ConIamgeProduct {
+        height: 47vw !important;
+    }
+
+    .Slider-Buttom-Position {
+        padding-left: 34px !important;
+    }
+
+    .yung-category {
+        grid-template-columns: 1fr 1fr !important;
+
+        .yung-category-item {
+            width: auto;
+
+            svg {
+                margin: 20px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+            }
+
+            span {
+                margin-top: -6px !important;
+            }
+        }
+    }
+
+    .Con-Futare {
+        grid-template-columns: 1fr 1fr !important;
+
+        svg {
+            width: 38px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .Con-InformationBlog {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .ConBoxBigIntro {
+        height: auto !important;
+
+        .Con-Photo-IntroBig {
+            width: 100% !important;
+
+            img {
+                height: auto !important;
+                width: 100% !important;
+            }
+        }
+
+        .Con-Text-IntroBig {
+            width: 100% !important;
+        }
+    }
+
+    .yung-category-item {
+        width: 31vw !important;
+    }
+
+    .Box-News {
+        width: 45vw !important;
+        height: 76vw !important;
+
+        .Text-Box-News {
+
+            h5 {
+                font-size: 3.5vw;
+            }
+
+            p {
+                font-size: 2.8vw;
+            }
+        }
+
+    }
+
+    .Buttons {
+        button {
+            padding: 5px !important;
+            font-size: 12px;
+            margin: 10px 0 !important;
+        }
+    }
+
+    .TitleBoxQuestion {
+        h6 {
+            font-size: 13px !important;
+        }
+    }
+
+    .media {
+        height: 33vw !important;
+        background-color: #EDEDED;
+
+        &-body {
+            padding: 6vw 2vw !important;
+
+            p {
+                font-size: 3vw !important;
+            }
+
+            h5 {
+                font-size: 3.5vw !important;
+            }
+
+        }
+    }
+
+    .Con-LastNewsBox {
+        grid-template-columns: 1fr !important;
+    }
+
+    .W-SM-100 {
+        width: 100% !important;
+    }
+
+    .Con-Comment {
+        width: 100% !important;
+    }
+
+    .Text-SingUpForm {
+        font-size: 11px !important;
+    }
+
+    .Offer-Input {
+        width: 44vw !important;
+    }
+
+    .ChangeSizeFont {
+        font-size: 3.5vw !important;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .Search-Input {
+        width: 61vw;
+    }
+}
+
+// For Max Of 1200px
+
+@media (min-width: 1200px) {
+
+    .yung-category-item {
+        width: 163px !important;
+    }
+}

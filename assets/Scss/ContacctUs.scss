@@ -1,0 +1,13 @@
+@import "./base";
+@import "./Component";
+@import "./_Media.Scss";
+
+
+main {
+    .Information {
+        i {
+            font-size: 28px;
+            color: #CCCC !important;
+        }
+    }
+}
